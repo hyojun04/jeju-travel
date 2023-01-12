@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<title>main</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  
+<h1><a href="index.html" id="name" style="color:brown">제주도</h1></a>
+<div id="grid"> 
+    <ul>
+      <li><a href="1day.html" class="content">1일차(1/27)</li></a><br>
+      <li><a href="2day.html" class="content">2일차(1/28)</li></a><br>
+      <li><a href="3day.html" class="content">3일차(1/29)</li></a><br>
+      <li><a href="4day.html" class="content">4일차(1/30)</li></a><br>
+      <li><a href="5day.html" class="content">5일차(1/31)</li></a><br>
+    </ul>
+    <div id="text">
+      <h2>main</h2>
+    <ol>
+        <li>일정: 1/27(금) ~ 1/31(화)</li><br>
+        
+        <li>숙소: <a href="house1.html" class="house">금호제주리조트 1/27 ~ 1/29</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="house2.html" class="house">제주쉬멍 1/29 ~ 1/31</a></li><br>
+
+        <li>항공편 시간: 엄마,아빠 (1/27 08:00 -> 1/31 20:20)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;효준&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1/27 15:10 -> 1/31 20:35)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;지혁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1/27 16:55 -> 1/31 20:10)
+        </li>
+
+        <div class="container">
+          <section class="section" id="section-3">
+              <h1>오시는 길</h1>
+              <div id="map" style="width: 70%; height: 300px; margin:auto"></div>
+              <code id="snippet" class="snippet"></code>
+          </section>
+        </div>
+        
+        
+        <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=[sxtrzffjlg]"></script>
+            <script id="code">
+              var mapDiv = document.getElementById('map');
+              var map = new naver.maps.Map(mapDiv);
+        </script>
+
+     </ol>
+            <br><img src="jeju.jpg" width="50%" >
+
+    </div>
+
+</div>
+
+
+
+
+
+
+</body>
+
+</html>
