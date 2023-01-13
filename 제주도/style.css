@@ -20,11 +20,11 @@ h1{
   font-size: 30px;
   font-family: Georgia;
   font-style:oblique;
-  height: 700px;
+  height: 1000px;
   
 }
 .content{
-    color:rgb(87, 41, 137);
+    color:darkblue;
     font-weight: bold;
 }
 #name{
@@ -55,10 +55,20 @@ p{
   border-right: 0;border-top: 0;border-bottom: 0;
   border-left: 5px rgb(78, 79, 77) solid;
   border-style: double;
-
-  font-size: 30px;
   font-family: Georgia;
   font-style:oblique;
+
+  font-size: 30px;
+
+  
+}
+#text2{
+  padding-left: 50px;
+  padding-top: 0;
+  border-right: 0;border-top: 0;border-bottom: 0;
+  border-left: 5px rgb(78, 79, 77) solid;
+  border-style: double;
+
   
 }
 
@@ -68,6 +78,7 @@ p{
 
 ol{
     font-size: 20px;
+    -webkit-text-size-adjust : none;
   
 }
 
@@ -76,8 +87,14 @@ ol{
 }
 
 body{
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-position: 20% 20%;
+  background-image: linear-gradient(
+    rgba(227, 227, 227, 0.511),
+    rgba(219, 158, 158, 0.8)
+  ),url("background.jpg");
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+
 }
 
