@@ -68,6 +68,9 @@ p{
   border-right: 0;border-top: 0;border-bottom: 0;
   border-left: 5px rgb(78, 79, 77) solid;
   border-style: double;
+  font-size: 16px;
+  -webkit-text-size-adjust : none;
+
 
   
 }
