@@ -62,6 +62,15 @@ p{
 
   
 }
+#text2{
+  padding-left: 50px;
+  padding-top: 0;
+  border-right: 0;border-top: 0;border-bottom: 0;
+  border-left: 5px rgb(78, 79, 77) solid;
+  border-style: double;
+
+  
+}
 
 .house{
     color:blue;
